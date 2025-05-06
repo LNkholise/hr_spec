@@ -48,6 +48,25 @@ See `requirements.txt` for extensive list.
     # Classify a star
     hr_spec classify --temperature 5778 --luminosity 1.0
 ```
+
+#### File structure 
+
+This is the basic file structure for the package:
+
+```text
+hr_spec/
+├── hr_spec/
+│   ├── __init__.py
+│   ├── cli.py
+│   ├── stellar.py
+│   └── test/
+│       ├── __init__.py
+│       └── stellar_test.py
+├── setup.py
+├── requirements.txt
+└── README.md
+```
+
 #### Contributing
 If you find any bugs or would like to contribute to the development of `HR Spec`, feel free to open an issue or create a pull request.
 - Fork repo.
