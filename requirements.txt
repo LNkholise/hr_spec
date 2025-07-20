@@ -1,3 +1,8 @@
 pytest
 astropy
 numpy
+astroml
+matplotlib
+pandas
+scikit-learn
+seaborn
